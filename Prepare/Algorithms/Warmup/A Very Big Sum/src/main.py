@@ -31,6 +31,6 @@ if __name__ == '__main__':
     result = aVeryBigSum(ar)
 
     #fptr.write(str(result) + '\n')
-    print(result + '\n')
+    print(result)
 
     #fptr.close()
