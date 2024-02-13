@@ -1,7 +1,7 @@
 import requests
 
-TESTCASESFOLDER = "Prepare/Algorithms/Warmup/Diagonal Difference/test cases"    # insert yours
-URL = "https://hr-testcases-us-east-1.s3.amazonaws.com/8662/output10.txt?response-content-type=text%2Fplain&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAR6O7GJNX5DNFO3PV%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T224917Z&X-Amz-Expires=7200&X-Amz-SignedHeaders=host&X-Amz-Signature=174b8ad3281c1caff0abd457c5dbb35c0c0ac48e696c271c3993e93b86079aea"
+TESTCASESFOLDER = "Prepare/Algorithms/Warmup/Plus Minus/test cases"    # insert yours
+URL = "https://hr-testcases-us-east-1.s3.amazonaws.com/8654/output10.txt?response-content-type=text%2Fplain&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAR6O7GJNX5DNFO3PV%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T020623Z&X-Amz-Expires=7200&X-Amz-SignedHeaders=host&X-Amz-Signature=753785fc2346a3c0be524743dfa0808cc3c57aff2fda750ec365e9dc1431966d"
                                                                                 # insert yours
 
 # MAKE USE OF THE URL TO CREATE FILES WITH HACKERRANK'S FOLDER STRUCTURE
@@ -16,4 +16,4 @@ r = requests.get(URL)
 # SAVE IT IN LOCAL FILE
 with open(FILEPATH, 'wb') as f:
     f.write(r.content)
-print('done')
+print(f"{mode}{case_number} done")
