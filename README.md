@@ -1,5 +1,6 @@
 # HackerRank_Codes
-![image](https://github.com/Ajnus/HackerRank_Codes/assets/8205907/13b50de7-6900-43e0-9492-52921e2dc7c6)
+
+![Silver Badge Problem Solving](https://github.com/Ajnus/HackerRank_Codes/assets/8205907/bb7bc28a-1b1b-4cdc-8ae8-b604939affb7)
 
 "HackerRank is the market-leading coding test and interview solution for hiring developers. Start hiring at the pace of innovation!"
 
